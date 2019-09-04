@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9802d54f-f147-4f50-a29a-ed09becfce98" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SingleInstancePattern/DoubleCheckInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SingleInstancePattern/EagerInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SingleInstancePattern/EnumInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SingleInstancePattern/LazyInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SingleInstancePattern/StaticInnerClassInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SingleInstancePattern/单例模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingleInstancePattern/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SingleInstancePattern/EagerInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SingleInstancePattern/EagerInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SingleInstancePattern/LazyInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SingleInstancePattern/LazyInstance.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,8 +31,8 @@
       <file leaf-file-name="LazyInstance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/LazyInstance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="87" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
+            <state relative-caret-position="75">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -42,18 +40,27 @@
       <file leaf-file-name="DoubleCheckInstance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/DoubleCheckInstance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="单例模式.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="单例模式.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/单例模式.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="3" selection-start-column="3" selection-end-column="3" />
+              <first_editor relative-caret-position="75">
+                <caret line="5" selection-start-line="5" selection-end-line="5" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -66,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ProxyPattern/ProtectProxy/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -75,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ProxyPattern/ProtectProxy/NonOwnerInvocationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -83,12 +90,8 @@
       <file leaf-file-name="StaticInnerClassInstance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/StaticInnerClassInstance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-              <folding>
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -96,8 +99,8 @@
       <file leaf-file-name="EnumInstance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/EnumInstance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -105,27 +108,8 @@
       <file leaf-file-name="EagerInstance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/EagerInstance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DuckAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AdapterPattern/DuckAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding>
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="60" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -147,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ObserverPattern/WeatherExample/WeatherData.java" />
         <option value="$PROJECT_DIR$/src/main/java/ObserverPattern/WeatherExample/CurrentConditionsDisplay.java" />
         <option value="$PROJECT_DIR$/src/main/java/ObserverPattern/WeatherExample/MainClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/ObserverPattern/WeatherExample/StatisticsDisplay.java" />
@@ -191,13 +174,14 @@
         <option value="$PROJECT_DIR$/src/main/java/AdapterPattern/TurkeyAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/AdapterPattern/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/AdapterPattern/DuckAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SingleInstancePattern/EagerInstance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SingleInstancePattern/LazyInstance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SingleInstancePattern/DoubleCheckInstance.java" />
         <option value="$PROJECT_DIR$/src/main/java/SingleInstancePattern/StaticInnerClassInstance.java" />
         <option value="$PROJECT_DIR$/src/main/java/SingleInstancePattern/EnumInstance.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProxyPattern/ProtectProxy/NonOwnerInvocationHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/SingleInstancePattern/单例模式.md" />
+        <option value="$PROJECT_DIR$/src/main/java/SingleInstancePattern/DoubleCheckInstance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SingleInstancePattern/EagerInstance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SingleInstancePattern/LazyInstance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SingleInstancePattern/Test.java" />
       </list>
     </option>
   </component>
@@ -212,6 +196,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -262,23 +253,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="ProtectProxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SingleInstancePattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -300,16 +274,17 @@
     <property name="settings.editor.selected.configurable" value="MarkdownNavigator.Settings.Css" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/FactoryPattern" />
+      <recent name="$PROJECT_DIR$/src/main/java/DecoratorPattern" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/SingleInstancePattern" />
       <recent name="$PROJECT_DIR$/src/main/java/CommandPattern" />
       <recent name="$PROJECT_DIR$/src/main/java/ObserverPattern" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/FactoryPattern" />
-      <recent name="$PROJECT_DIR$/src/main/java/DecoratorPattern" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -324,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -373,23 +348,23 @@
       </extension>
     </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProxyPattern.ProtectProxy.MainClass" />
-      <module name="DesignPattern" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProxyPattern.ProtectProxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DecoratorPattern.DrinkExample.MainClass" />
       <module name="DesignPattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DecoratorPattern.DrinkExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingleInstancePattern.Test" />
+      <module name="DesignPattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingleInstancePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -451,19 +426,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.MainClass" />
       <item itemvalue="Application.MainClass (1)" />
       <item itemvalue="Application.MainClass (2)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainClass (2)" />
         <item itemvalue="Application.MainClass (1)" />
-        <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -493,16 +468,16 @@
       <workItem from="1553770545839" duration="224000" />
       <workItem from="1553775274862" duration="243000" />
       <workItem from="1553857151232" duration="4862000" />
-      <workItem from="1554039074491" duration="782000" />
+      <workItem from="1554039074491" duration="1151000" />
+      <workItem from="1567578139521" duration="1114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26745000" />
+    <option name="totallyTimeSpent" value="28228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -512,44 +487,44 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32965517" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31987077" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32471728" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37241378" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32965517" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32965517" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32988167" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27382874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32988167" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32965517" />
@@ -558,7 +533,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32988167" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -589,13 +564,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ObserverPattern/WeatherExample/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ObserverPattern/WeatherExample/WeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -863,9 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -880,12 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#91#92#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -900,12 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,12 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -942,72 +889,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/EagerInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/LazyInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="87" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/StaticInnerClassInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/EnumInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/DoubleCheckInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ProxyPattern/ProtectProxy/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ProxyPattern/ProtectProxy/NonOwnerInvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/单例模式.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="3" selection-start-column="3" selection-end-column="3" />
+          <first_editor relative-caret-position="75">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/StaticInnerClassInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/EnumInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/EagerInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/DoubleCheckInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/LazyInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SingleInstancePattern/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>

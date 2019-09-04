@@ -1,11 +1,11 @@
 package SingleInstancePattern;
 
 public class EagerInstance {
-    public static EagerInstance instance;
+    public static EagerInstance instance = new EagerInstance();
     private EagerInstance(){
 
     }
-    public static EagerInstance getInstance(){
+    public EagerInstance getInstance(){
         return instance;
     }
 }
